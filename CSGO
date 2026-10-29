@@ -2187,7 +2187,7 @@ end
 function NotificationManager.new(screenGui: ScreenGui)
     local self = setmetatable({}, NotificationManager)
 
-    self._notifications = {} }
+    self._notifications = {}
     self._connections = {}
 
     -- Container anchored top-right
